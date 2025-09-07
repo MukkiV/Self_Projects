@@ -13,7 +13,7 @@ Each project has its own repository containing:
 
 ## 📌 Projects
 
-### 1. [Python Gaming Hub](https://github.com/yourusername/python-gaming-hub)
+### 1. [Python Gaming Hub](https://github.com/MukkiV/Python-Game-Hub)
 - **Goal:** Create a terminal-based gaming hub in Python that allows users to play multiple mini-games from a single interface.  
 - **Dataset:** No external dataset used — games are implemented using Python logic.  
 - **Steps Taken:**
