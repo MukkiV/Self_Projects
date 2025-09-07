@@ -30,10 +30,26 @@ Each project has its own repository containing:
 
 ---
 
-### 2. [Sales Forecast](https://github.com/yourusername/sales-forecast)
-- **Goal:** Forecast future sales trends using time series analysis.  
-- **Tools:** Python, Prophet, Matplotlib  
-- **Highlights:** Built predictive models to help optimize inventory and demand planning.  
+### 2. [Retail Project](https://github.com/MukkiV/Retail-Project)
+- **Goal:** Analyze retail transaction, product, and demographic data to identify sales patterns and customer insights.  
+- **Dataset:** Transaction data (`transactions.csv`), product details (`product.csv`), and customer demographics (`hh_demographic.csv`).  
+- **Steps Taken:**
+  - Imported and optimized large datasets by selecting relevant columns and reducing data types for efficiency.  
+  - Performed **time-based analysis**:
+    - Aggregated sales by month and compared trends across 2016 and 2017.  
+    - Identified weekday vs weekend sales differences.  
+  - Conducted **demographic analysis**:
+    - Grouped sales by customer age and income categories.  
+    - Analyzed average sales per household composition.  
+  - Integrated product-level data:
+    - Linked products with demographics to study department-wise sales preferences.  
+    - Identified which product categories were most popular among younger demographics.  
+  - Exported final pivot tables and insights to Excel for reporting.  
+- **Tools:** Python, Pandas, Matplotlib, Seaborn, Excel (for exporting).  
+- **Highlights:**  
+  - Found that sales were **growing over time** but varied seasonally.  
+  - High-income households contributed significantly more to total sales.  
+  - Younger customers showed strong preferences in specific product categories. 
 
 ---
 
