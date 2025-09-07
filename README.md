@@ -53,10 +53,28 @@ Each project has its own repository containing:
 
 ---
 
-### 3. [Customer Segmentation](https://github.com/yourusername/customer-segmentation)
-- **Goal:** Cluster customers based on spending and engagement patterns.  
-- **Tools:** Python, Scikit-learn, Seaborn  
-- **Highlights:** Segmented customers into actionable groups for targeted marketing.  
+### 3. [Hotel Booking Analysis](https://github.com/MukkiV/Hotel-Booking-Analysis)
+- **Goal:** Analyze hotel booking data to uncover customer booking patterns, cancellation behavior, and factors influencing reservations.  
+- **Dataset:** Hotel booking dataset containing details such as hotel type, booking dates, lead time, number of guests, market segment, cancellations, and special requests.  
+- **Steps Taken:**
+  - Performed **data cleaning** (handled missing values, corrected data types, and removed duplicates).  
+  - Analyzed **booking patterns**:
+    - Distribution of bookings across city hotels and resort hotels.  
+    - Seasonal trends in bookings and peak months.  
+    - Lead time analysis to understand advance booking behavior.  
+  - Conducted **cancellation analysis**:
+    - Explored factors contributing to cancellations (lead time, deposit type, market segment).  
+    - Compared cancellation rates between city hotels and resort hotels.  
+  - Studied **guest demographics**:
+    - Family vs solo bookings.  
+    - Impact of repeated guests on hotel bookings.  
+  - Created meaningful visualizations using Matplotlib and Seaborn.  
+- **Tools:** Python, Pandas, Matplotlib, Seaborn  
+- **Highlights:**  
+  - Found that **city hotels had higher bookings but also higher cancellations**.  
+  - Longer **lead times were strongly correlated with cancellations**.  
+  - Peak booking periods aligned with summer and holiday seasons.  
+  - Insights can help hotels improve **marketing strategies and reduce cancellations**.
 
 ---
 
