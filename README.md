@@ -19,7 +19,7 @@ Each project has its own repository containing:
 - **Steps Taken:**
   - Designed a **modular structure** using Object-Oriented Programming (OOP).  
   - Implemented an **abstract base class (ABC)** to define the structure for all mini-games.  
-  - Built multiple games (e.g., Tic-Tac-Toe, Rock-Paper-Scissors, Number Guessing, etc.).  
+  - Built multiple games (e.g. Rock-Paper-Scissors, Number Guessing, etc.).  
   - Developed a **main menu system** to let users select and play games interactively.  
   - Ensured **code reusability and scalability** so new games can be added easily.  
 - **Tools:** Python, OOP principles, `abc` module, random module  
