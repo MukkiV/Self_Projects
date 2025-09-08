@@ -78,10 +78,31 @@ Each project has its own repository containing:
 
 ---
 
-### 4. [Sentiment Analysis](https://github.com/yourusername/sentiment-analysis)
-- **Goal:** Classify customer reviews into positive, negative, and neutral sentiments.  
-- **Tools:** Python, NLTK, Scikit-learn  
-- **Highlights:** Achieved high accuracy in predicting sentiment for product reviews.  
+### 4. [Modern Cars Analysis (SQL)](https://github.com/MukkiV/Model-Cars-Analysis)
+- **Goal:** Perform end-to-end analysis of customer, office, product, employee, and order data for a modern car dealership using SQL.  
+- **Dataset:** Relational database with tables such as `customers`, `orders`, `products`, `employees`, `offices`, and `orderdetails`.  
+- **Steps Taken:**
+  - **Customer Analysis:**
+    - Identified top 10 customers by credit limit.  
+    - Calculated average credit limit per country and number of customers per state.  
+  - **Office Analysis:**
+    - Counted employees per office and identified offices with low or no staff.  
+    - Found the most profitable office and offices with highest credit limits.  
+  - **Product Analysis:**
+    - Counted products per product line and identified low-inventory products.  
+    - Calculated total sales per product line and top-selling products.  
+  - **Employee Analysis:**
+    - Counted employees by job title and identified those without managers.  
+    - Calculated sales per employee and identified the most profitable representatives.  
+  - **Order Analysis:**
+    - Measured average order amounts, order frequencies by month, and pending shipments.  
+    - Identified high-value and profitable orders.  
+- **Tools:** SQL (Joins, Aggregations, Stored Procedures, Triggers, Subqueries).  
+- **Highlights:**  
+  - Delivered **360° insights** into customer, product, office, and employee performance.  
+  - Implemented **dynamic procedures and triggers** to handle real-time updates and validations.  
+  - Identified top customers, most profitable offices, and key product lines.  
+  - Simulated a real-world database management scenario for a modern car dealership.  
 
 ---
 
