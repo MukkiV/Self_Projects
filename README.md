@@ -106,18 +106,54 @@ Each project has its own repository containing:
 
 ---
 
-### 5. [Credit Risk Model](https://github.com/yourusername/credit-risk-model)
-- **Goal:** Assess loan applicants and classify them into different risk levels.  
-- **Tools:** Python, XGBoost, Pandas  
-- **Highlights:** Built a machine learning model for risk prediction and decision support.  
+### 5. [Customer Churn Analysis](https://github.com/MukkiV/Bank-Churn-Analysis)
+- **Goal:** Analyze customer churn in a bank dataset and identify key factors that influence whether customers leave or stay.  
+- **Dataset:** Bank churn dataset (`DS1_C5_S1_BankChurn_Data_Concept.csv`) containing demographics, income, spending behavior, engagement, and card details.  
+- **Steps Taken:**
+  - **Churn Distribution:**
+    - Measured churn rate and compared attrited vs existing customers.  
+  - **Demographic Analysis:**
+    - Explored churn trends by age, gender, marital status, and education.  
+    - Found younger customers and certain marital groups churn more frequently.  
+  - **Income & Spending Behavior:**
+    - Compared churn rates across income categories.  
+    - Studied credit limits, total transaction amounts, and number of transactions.  
+  - **Customer Engagement:**
+    - Analyzed churn vs tenure (`Months_on_book`), inactivity, and contact frequency.  
+    - Investigated the effect of relationship count on churn.  
+  - **Card Analysis:**
+    - Distribution of card categories (Blue, Silver, Gold, Platinum).  
+    - Churn rate by card type and premium vs standard cardholders.  
+- **Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn  
+- **Highlights:**  
+  - Overall churn rate identified and segmented by customer groups.  
+  - **Low engagement** customers (inactive, fewer contacts, fewer relationships) were more likely to churn.  
+  - **High utilization with low activity** was a strong churn indicator.  
+  - Premium cardholders were less likely to churn compared to standard cardholders.
 
 ---
 
 ## 🔧 Tech Stack
-- **Language:** Python  
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn (others vary by project)  
-- **Tools:** Jupyter Notebook, PowerPoint, GitHub  
 
+- **Languages:**  
+  - Python (for data analysis, visualization, machine learning, and game development)  
+  - SQL (for relational database queries, procedures, triggers, and analysis)  
+
+- **Libraries & Frameworks:**  
+  - **Data Analysis & ML:** Pandas, NumPy, Scikit-learn, XGBoost  
+  - **Visualization:** Matplotlib, Seaborn  
+  - **Programming Concepts:** OOP principles, `abc` module (for Gaming Hub)  
+
+- **Tools & Platforms:**  
+  - Jupyter Notebook (project development & reporting)  
+  - PowerPoint (presentations)  
+  - Git & GitHub (version control & portfolio management)  
+  - Excel (exporting and reporting in Retail Project)  
+
+- **Database Management:**  
+  - SQL (Joins, Subqueries, Stored Procedures, Triggers, Aggregations)  
+  - MySQL / SQL-based relational database schema for Modern Cars project
+  
 ---
 
 ## 📬 Contact
