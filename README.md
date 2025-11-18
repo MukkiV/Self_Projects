@@ -133,6 +133,35 @@ Each project has its own repository containing:
 
 ---
 
+### 6. [Bird Strike Analysis](https://github.com/MukkiV/Bird-Strike-Analysis)
+- **Goal:** Analyze global bird strike incidents (2000–2013) to identify safety risks, wildlife patterns, operational impact, and cost-related insights for aviation safety improvement.  
+- **Dataset:** FAA Wildlife Strike Database (2000–2013) containing aircraft details, species information, flight phases, sky conditions, location data, and cost metrics.  
+- **Steps Taken:**  
+  - **Safety Analysis:**  
+    - Identified high-risk flight phases such as Approach and Landing.  
+    - Compared strike frequency by damage severity and flight impact.  
+  - **Wildlife Species Analysis:**  
+    - Examined top species involved and frequency of small-bird strikes.  
+    - Analyzed species count, bird size, and number of birds struck.  
+  - **Operational Impact:**  
+    - Found top affected states and airports (California, Texas, Florida).  
+    - Studied delays, inspections, and operational disruptions.  
+  - **Cost Analysis:**  
+    - Calculated annual and total damage costs.  
+    - Compared airline-wise and aircraft-wise financial impacts.  
+  - **Reporting & Environmental Analysis:**  
+    - Analyzed sky and weather conditions during strikes.  
+    - Observed that 47% of strikes occurred under clear/no-cloud conditions.  
+- **Tools:** Tableau, Excel/CSV, Gamma App  
+- **Highlights:**  
+  - Over **68,000 strikes** analyzed across **345 species**.  
+  - Approach and Landing phases show **highest strike vulnerability**.  
+  - Clear-sky strikes highlight the need for radar-based detection systems.  
+  - Major hotspots identified in high-traffic airports.  
+  - Built **6 interactive dashboards** covering safety, wildlife, cost, and operations.
+    
+---
+
 ## 🔧 Tech Stack
 
 - **Languages:**  
