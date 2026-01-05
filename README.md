@@ -27,7 +27,24 @@ Each project has its own repository containing:
 - **Highlights:**  
   - Demonstrates an end-to-end **data analysis workflow** from raw data to insights.  
   - Provides a **comparative market view** showing differences in pricing and demand between France and Germany.  
-  - Combines **analysis, modeling, and visualization** to support data-driven decision-making.  
+  - Combines **analysis, modeling, and visualization** to support data-driven decision-making.
+ 
+### 2. [Computer Sales Analysis (Python & Statistics)](https://github.com/MukkiV/Computer-Sales-Analysis)
+- **Goal:** Analyze computer sales data to understand pricing behavior, product features, and market patterns using statistical methods.  
+- **Dataset:** Computer sales dataset containing product features, pricing details, and classification attributes (premium vs non-premium).  
+- **Steps Taken:**  
+  - Cleaned and prepared the dataset for analysis using Python.  
+  - Performed **descriptive statistical analysis** to study price distribution and feature adoption.  
+  - Applied **sampling techniques** to compare sample means with the population mean and validate data reliability.  
+  - Used the **Central Limit Theorem (CLT)** to analyze how sample size impacts the stability of price estimates.  
+  - Conducted **hypothesis testing (Z-test and T-test)** to evaluate pricing differences and validate market assumptions.  
+  - Compared **premium and non-premium systems** to identify differences in average pricing and feature configuration.  
+- **Tools:** Python, Pandas, NumPy, Statistics (Sampling, CLT, Hypothesis Testing)  
+- **Highlights:**  
+  - Confirms that the **average market price is stable around $2,200**.  
+  - Shows that **premium systems are feature-driven rather than higher priced**.  
+  - Demonstrates strong application of **statistical reasoning** for data-driven decision-making.  
+
 
 ### 3. [Python Gaming Hub](https://github.com/MukkiV/Python-Game-Hub)
 - **Goal:** Create a terminal-based gaming hub in Python that allows users to play multiple mini-games from a single interface.  
@@ -69,7 +86,7 @@ Each project has its own repository containing:
 
 ---
 
-### 3. [Hotel Booking Analysis](https://github.com/MukkiV/Hotel-Booking-Analysis)
+### 5. [Hotel Booking Analysis](https://github.com/MukkiV/Hotel-Booking-Analysis)
 - **Goal:** Analyze hotel booking data to uncover customer booking patterns, cancellation behavior, and factors influencing reservations.  
 - **Dataset:** Hotel booking dataset containing details such as hotel type, booking dates, lead time, number of guests, market segment, cancellations, and special requests.  
 - **Steps Taken:**
@@ -94,7 +111,7 @@ Each project has its own repository containing:
 
 ---
 
-### 4. [Modern Cars Analysis (SQL)](https://github.com/MukkiV/Model-Cars-Analysis)
+### 6. [Modern Cars Analysis (SQL)](https://github.com/MukkiV/Model-Cars-Analysis)
 - **Goal:** Perform end-to-end analysis of customer, office, product, employee, and order data for a modern car dealership using SQL.  
 - **Dataset:** Relational database with tables such as `customers`, `orders`, `products`, `employees`, `offices`, and `orderdetails`.  
 - **Steps Taken:**
@@ -122,7 +139,7 @@ Each project has its own repository containing:
 
 ---
 
-### 5. [Customer Churn Analysis](https://github.com/MukkiV/Bank-Churn-Analysis)
+### 7. [Customer Churn Analysis](https://github.com/MukkiV/Bank-Churn-Analysis)
 - **Goal:** Analyze customer churn in a bank dataset and identify key factors that influence whether customers leave or stay.  
 - **Dataset:** Bank churn dataset (`DS1_C5_S1_BankChurn_Data_Concept.csv`) containing demographics, income, spending behavior, engagement, and card details.  
 - **Steps Taken:**
@@ -149,7 +166,7 @@ Each project has its own repository containing:
 
 ---
 
-### 6. [Bird Strike Analysis](https://github.com/MukkiV/Bird-Strike-Analysis)
+### 8. [Bird Strike Analysis](https://github.com/MukkiV/Bird-Strike-Analysis)
 - **Goal:** Analyze global bird strike incidents (2000–2013) to identify safety risks, wildlife patterns, operational impact, and cost-related insights for aviation safety improvement.  
 - **Dataset:** FAA Wildlife Strike Database (2000–2013) containing aircraft details, species information, flight phases, sky conditions, location data, and cost metrics.  
 - **Steps Taken:**  
@@ -177,28 +194,52 @@ Each project has its own repository containing:
   - Built **6 interactive dashboards** covering safety, wildlife, cost, and operations.
     
 ---
-
 ## 🔧 Tech Stack
 
-- **Languages:**  
-  - Python (for data analysis, visualization, machine learning, and game development)  
-  - SQL (for relational database queries, procedures, triggers, and analysis)  
+### **Languages**
+- **Python** – data analysis, statistics, machine learning, automation, and application logic  
+- **SQL** – querying, aggregations, joins, subqueries, stored procedures, and data analysis  
 
-- **Libraries & Frameworks:**  
-  - **Data Analysis & ML:** Pandas, NumPy, Scikit-learn, XGBoost  
-  - **Visualization:** Matplotlib, Seaborn  
-  - **Programming Concepts:** OOP principles, `abc` module (for Gaming Hub)  
+---
 
-- **Tools & Platforms:**  
-  - Jupyter Notebook (project development & reporting)  
-  - PowerPoint (presentations)  
-  - Git & GitHub (version control & portfolio management)  
-  - Excel (exporting and reporting in Retail Project)  
+### **Libraries & Frameworks**
+- **Data Analysis & Statistics:** Pandas, NumPy  
+- **Machine Learning:** Scikit-learn (Regression, Classification, Clustering)  
+- **Visualization:** Matplotlib, Seaborn  
+- **Programming Concepts:** Object-Oriented Programming (OOP), `abc` module  
 
-- **Database Management:**  
-  - SQL (Joins, Subqueries, Stored Procedures, Triggers, Aggregations)  
-  - MySQL / SQL-based relational database schema for Modern Cars project
-  
+---
+
+### **Data Visualization & BI**
+- **Tableau** – interactive dashboards  
+- **Power BI** – dashboarding and reporting  
+- **PowerPoint** – business presentations and storytelling  
+
+---
+
+### **Cloud & Data Engineering**
+- **Azure Data Factory** – ETL pipeline orchestration  
+- **Azure Blob Storage** – cloud data storage  
+- **Azure Monitor** – pipeline monitoring and logging  
+- **PostgreSQL** – source and staging databases  
+
+---
+
+### **Tools & Platforms**
+- **Jupyter Notebook** – analysis, experimentation, and reporting  
+- **Git & GitHub** – version control and project portfolio  
+- **Excel** – data export, summaries, and reporting  
+
+---
+
+### **Database Management**
+- **Relational Databases:** PostgreSQL, MySQL  
+- **SQL Concepts:**  
+  - Joins & Subqueries  
+  - Aggregations & Window Functions  
+  - Stored Procedures & Triggers  
+  - Schema Design & Data Validation  
+
 ---
 
 ## 📬 Contact
