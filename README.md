@@ -13,7 +13,23 @@ Each project has its own repository containing:
 
 ## 📌 Projects
 
-### 1. [Python Gaming Hub](https://github.com/MukkiV/Python-Game-Hub)
+### 1. [Airbnb Market Analysis (France & Germany)](https://github.com/MukkiV/AirBnb-Market-Intelligence)
+- **Goal:** Analyze Airbnb listing and host data to understand pricing behavior, demand patterns, and key factors influencing listing performance across France and Germany.  
+- **Dataset:** Airbnb listings data for France and Germany, including pricing, host details, property features, reviews, and booking-related attributes.  
+- **Steps Taken:**  
+  - Performed **data cleaning and preprocessing** to handle missing values, inconsistent formats, and outliers.  
+  - Conducted **exploratory data analysis (EDA)** to study pricing distribution, demand trends, and host behavior.  
+  - Analyzed **seasonality and location-based patterns** to compare market behavior between France and Germany.  
+  - Evaluated the impact of **property attributes, amenities, and accommodation capacity** on pricing and demand.  
+  - Applied **statistical analysis and machine learning techniques** (regression, clustering) to identify key drivers and segment listings.  
+  - Created **visual summaries and dashboards** to compare insights across both countries.  
+- **Tools:** Python, Pandas, NumPy, SQL, Machine Learning, Tableau  
+- **Highlights:**  
+  - Demonstrates an end-to-end **data analysis workflow** from raw data to insights.  
+  - Provides a **comparative market view** showing differences in pricing and demand between France and Germany.  
+  - Combines **analysis, modeling, and visualization** to support data-driven decision-making.  
+
+### 3. [Python Gaming Hub](https://github.com/MukkiV/Python-Game-Hub)
 - **Goal:** Create a terminal-based gaming hub in Python that allows users to play multiple mini-games from a single interface.  
 - **Dataset:** No external dataset used — games are implemented using Python logic.  
 - **Steps Taken:**
@@ -30,7 +46,7 @@ Each project has its own repository containing:
 
 ---
 
-### 2. [Retail Project](https://github.com/MukkiV/Retail-Project)
+### 4. [Retail Project](https://github.com/MukkiV/Retail-Project)
 - **Goal:** Analyze retail transaction, product, and demographic data to identify sales patterns and customer insights.  
 - **Dataset:** Transaction data (`transactions.csv`), product details (`product.csv`), and customer demographics (`hh_demographic.csv`).  
 - **Steps Taken:**
